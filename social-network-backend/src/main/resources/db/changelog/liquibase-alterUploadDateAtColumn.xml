@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
+
+    <changeSet id="alter-upload-date-at-column" author="duyho03">
+        <preConditions onFail="MARK_RAN">
+            <columnExists tableName="file" columnName="upload_date_at"/>
+        </preConditions>
+
+        <sql>
+            ALTER TABLE file
+                ALTER COLUMN upload_date_at
+                    SET DATA TYPE date
+                USING upload_date_at::date;
+        </sql>
+
+    </changeSet>
+
+</databaseChangeLog>

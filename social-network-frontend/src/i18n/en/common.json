@@ -1,0 +1,133 @@
+{
+  "navbar": {
+    "dashboard": "Dashboard",
+    "user": "User",
+    "file": "File",
+    "search": "Search"
+  },
+  "language": {
+    "English": "English",
+    "Vietnam": "Vietnam",
+    "German": "German",
+    "French": "French"
+  },
+  "notification": {
+    "title": "Notifications",
+    "youhave": "You have",
+    "unread": "unread notifications"
+  },
+  "account": {
+    "home": "Home",
+    "profile": "Profile",
+    "setting": "Setting",
+    "logout": "Logout",
+    "accessDenied": "Access denied. Only administrators can perform this action."
+  },
+  "table": {
+    "fileName": "File Name",
+    "fileSize": "File Size",
+    "dateUploaded": "Date Uploaded",
+    "lastUpdated": "Last Updated",
+    "fileOwner": "File Owner",
+    "rowsPerPage": "Rows per page",
+    "status": "Status",
+    "username": "Username",
+    "email": "Email",
+    "role": "Role",
+    "dateCreated": "Date Created",
+    "lastLogin": "Last Login",
+    "active": "Active",
+    "download": "Download"
+  },
+  "mainPage": {
+    "howDoYouFeel": "{{firstName}} {{middleName}} {{lastName}}, How do you feel today?",
+    "followRequest": "Follow Request",
+    "viewAllRequest": "View All Requests",
+    "imageVideo": "Image/Video",
+    "friend": "Friend",
+    "feed": "Timeline",
+    "resource": "Resource",
+    "chat": "Chat",
+    "savedItems": "Saved Items"
+  },
+  "post": {
+    "post": "Post",
+    "share": "Share",
+    "comment": "Comment",
+    "like": "Like",
+    "unlike": "Unlike",
+    "send": "Send",
+    "interact": "Interact",
+    "savePost": "Save Post",
+    "writeComment": "Write a Comment",
+    "writePostContent": "What are you thinking?",
+    "public": "Public",
+    "private": "Private"
+  },
+  "follow": {
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "follower": "Follower",
+    "following": "Following",
+    "noRequestFollow": "No Follow Requests",
+    "suggestFollow": "Suggested Follows"
+  },
+  "friend": {
+    "friend": "Friend",
+    "addFriend": "Add Friend",
+    "accept": "Accept",
+    "reject": "Reject",
+    "removeFriend": "Remove Friend",
+    "mainPage": "Home Page",
+    "friendRequest": "Friend Request",
+    "friendList": "All Friends",
+    "suggestFriend": "Friend Suggestions",
+    "suggestFollow": "Follow Suggestions",
+    "listFollow": "Follow List",
+    "viewAll": "View All",
+    "add": "Add",
+    "listRequestEmpty": "Request List is Empty",
+    "listSuggestionsEmpty": "Suggestions List is Empty"
+  },
+  "profile": {
+    "message": "Message",
+    "phoneNumber": "Phone Number",
+    "description": "Description",
+    "editProfile": "Edit Profile",
+    "dateOfBirth": "Date of Birth",
+    "posts": "Posts",
+    "media": "Media",
+    "video": "Video",
+    "noPost": "No Posts"
+  },
+  "savedItems": {
+    "savedItems": "Saved Collection",
+    "noSavedItems": "No Saved Items",
+    "addNewFolder": "Add New Folder",
+    "noItemsFound": "No Items Found",
+    "all": "All"
+  },
+  "feed": {
+    "feed": "Feed",
+    "allFeed": "All Feed",
+    "followFeed": "Follow Feeds",
+    "friendFeed": "Friend Feeds"
+  },
+  "chat": {
+    "typeMessage": "Type your message",
+    "backMainPage": "Back to Main Page",
+    "send": "Send"
+  },
+  "label": {
+    "lastUpdated": "Last Updated ",
+    "on": "on",
+    "by": "by"
+  },
+  "commonErrorMessage": {
+    "cannotConnectToServer": "Cannot connect to server"
+  },
+  "title": {},
+  "yes": "Yes",
+  "no": "No",
+  "or": "Or"
+}

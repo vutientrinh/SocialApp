@@ -1,0 +1,22 @@
+{
+  "message": {
+    "success": {
+      "import-complete": "Importation de %s terminée (%d erreur, %d avertissement)",
+      "totalError-totalWarning": "%d erreur, %d avertissement"
+    },
+    "failure": {
+    },
+    "warning": {
+    },
+    "error": {
+      "token_refresh_error": "Échec pour [%s]: %s",
+      "cannot_create_file": "Impossible de créer le fichier %s",
+      "post_not_found": "Post non trouvé"
+    },
+    "common": {
+    }
+  },
+  "yes": "Oui",
+  "no": "Non",
+  "or": "Ou"
+}

@@ -1,0 +1,22 @@
+{
+  "message": {
+    "success": {
+      "import-complete": "Import %s complete (%d error, %d warning)",
+      "totalError-totalWarning": "%d error, %d warning"
+    },
+    "failure": {
+    },
+    "warning": {
+    },
+    "error": {
+      "token_refresh_error": "Failed for [%s]: %s",
+      "cannot_create_file": "Cannot create file %s",
+      "post_not_found": "Post not found"
+    },
+    "common": {
+    }
+  },
+  "yes": "Yes",
+  "no": "No",
+  "or": "Or"
+}

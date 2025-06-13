@@ -1,0 +1,22 @@
+{
+  "message": {
+    "success": {
+      "import-complete": "Hoàn thành việc nhập %s (%d lỗi, %d cảnh báo)",
+      "totalError-totalWarning": "%d lỗi, %d cảnh báo"
+    },
+    "failure": {
+    },
+    "warning": {
+    },
+    "error": {
+      "token_refresh_error": "Lỗi %s: %s",
+      "cannot_create_file": "Không thể tạo file %s",
+      "post_not_found": "Không tìm thấy bài viết"
+    },
+    "common": {
+    }
+  },
+  "yes": "Có",
+  "no": "Không",
+  "or": "Hoặc"
+}

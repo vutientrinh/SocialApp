@@ -1,0 +1,133 @@
+{
+  "navbar": {
+    "dashboard": "Armaturenbrett",
+    "user": "Benutzer",
+    "file": "Datei",
+    "search": "Suche"
+  },
+  "language": {
+    "English": "Englisch",
+    "Vietnam": "Vietnamesisch",
+    "German": "Deutsch",
+    "French": "Französisch"
+  },
+  "notification": {
+    "title": "Benachrichtigungen",
+    "youhave": "Du hast",
+    "unread": "ungelesene Benachrichtigungen"
+  },
+  "account": {
+    "home": "Startseite",
+    "profile": "Profil",
+    "setting": "Einstellungen",
+    "logout": "Abmelden",
+    "accessDenied": "Zugriff verweigert. Nur Administratoren können diese Aktion"
+  },
+  "table": {
+    "fileName": "Dateiname",
+    "fileSize": "Dateigröße",
+    "dateUploaded": "Hochgeladen am",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "fileOwner": "Dateibesitzer",
+    "rowsPerPage": "Zeilen pro Seite",
+    "status": "Status",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "dateCreated": "Erstellt am",
+    "lastLogin": "Letzter Login",
+    "active": "Aktiv",
+    "download": "Herunterladen"
+  },
+  "mainPage": {
+    "howDoYouFeel": "{{firstName}} {{middleName}} {{lastName}}, Wie fühlst du dich heute?",
+    "followRequest": "Folgeanfrage",
+    "viewAllRequest": "Alle Anfragen anzeigen",
+    "imageVideo": "Bild/Video",
+    "friend": "Freund",
+    "feed": "Zeitleiste",
+    "resource": "Ressource",
+    "chat": "Chat",
+    "savedItems": "Gespeicherte Elemente"
+  },
+  "post": {
+    "post": "Beitrag",
+    "share": "Teilen",
+    "comment": "Kommentar",
+    "like": "Gefällt mir",
+    "unlike": "Gefällt mir nicht mehr",
+    "send": "Senden",
+    "interact": "Interagieren",
+    "savePost": "Beitrag speichern",
+    "writeComment": "Einen Kommentar schreiben",
+    "writePostContent": "Was denkst du?",
+    "public": "Öffentlich",
+    "private": "Privat"
+  },
+  "follow": {
+    "follow": "Folgen",
+    "unfollow": "Nicht mehr folgen",
+    "follower": "Follower",
+    "following": "Gefolgt",
+    "noRequestFollow": "Keine Folgeanfragen",
+    "suggestFollow": "Vorgeschlagene Personen"
+  },
+  "friend": {
+    "friend": "Freund",
+    "addFriend": "Freund hinzufügen",
+    "accept": "Annehmen",
+    "reject": "Ablehnen",
+    "removeFriend": "Freund entfernen",
+    "mainPage": "Startseite",
+    "friendRequest": "Freundschaftsanfrage",
+    "friendList": "Alle Freunde",
+    "suggestFriend": "Freundschaftsvorschläge",
+    "suggestFollow": "Vorgeschlagene Personen",
+    "listFollow": "Folgeliste",
+    "viewAll": "Alle anzeigen",
+    "add": "Hinzufügen",
+    "listRequestEmpty": "Anfrageliste ist leer",
+    "listSuggestionsEmpty": "Vorschlagsliste ist leer"
+  },
+  "profile": {
+    "message": "Nachricht",
+    "phoneNumber": "Telefonnummer",
+    "description": "Beschreibung",
+    "editProfile": "Profil bearbeiten",
+    "dateOfBirth": "Geburtsdatum",
+    "posts": "Beiträge",
+    "media": "Medien",
+    "video": "Video",
+    "noPost": "Keine Beiträge"
+  },
+  "savedItems": {
+    "savedItems": "Gespeicherte Sammlungen",
+    "noSavedItems": "Keine gespeicherten Elemente",
+    "addNewFolder": "Neuen Ordner hinzufügen",
+    "noItemsFound": "Keine Elemente gefunden",
+    "all": "Alle"
+  },
+  "chat": {
+    "typeMessage": "Geben Sie Ihre Nachricht ein",
+    "backMainPage": "Zurück zur Hauptseite",
+    "send": "Senden"
+  },
+  "feed": {
+    "feed": "Feed",
+    "allFeed": "Alle Feeds",
+    "followFeed": "Folge Feeds",
+    "friendFeed": "Freund Feeds"
+  },
+  "label": {
+    "lastUpdated": "Zuletzt aktualisiert ",
+    "on": "am",
+    "by": "von"
+  },
+  "commonErrorMessage": {
+    "cannotConnectToServer": "Kann keine Verbindung zum Server herstellen"
+  },
+  "title": {},
+  "yes": "Ja",
+  "no": "Nein",
+  "or": "Oder"
+}

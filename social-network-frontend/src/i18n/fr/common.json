@@ -1,0 +1,133 @@
+{
+  "navbar": {
+    "dashboard": "Tableau de bord",
+    "user": "Utilisateur",
+    "file": "Fichier",
+    "search": "Rechercher"
+  },
+  "language": {
+    "English": "Anglais",
+    "Vietnam": "Vietnamien",
+    "German": "Allemand",
+    "French": "Français"
+  },
+  "notification": {
+    "title": "Notifications",
+    "youhave": "Vous avez",
+    "unread": "notifications non lues"
+  },
+  "account": {
+    "home": "Accueil",
+    "profile": "Profil",
+    "setting": "Paramètres",
+    "logout": "Déconnexion",
+    "accessDenied": "Accès refusé. Seuls les administrateurs peuvent effectuer cette"
+  },
+  "table": {
+    "fileName": "Nom du fichier",
+    "fileSize": "Taille du fichier",
+    "dateUploaded": "Date de téléchargement",
+    "lastUpdated": "Dernière mise à jour",
+    "fileOwner": "Propriétaire du fichier",
+    "rowsPerPage": "Lignes par page",
+    "status": "Statut",
+    "username": "Nom d'utilisateur",
+    "email": "E-mail",
+    "role": "Rôle",
+    "dateCreated": "Date de création",
+    "lastLogin": "Dernière connexion",
+    "active": "Actif",
+    "download": "Télécharger"
+  },
+  "mainPage": {
+    "howDoYouFeel": "{{firstName}} {{middleName}} {{lastName}}, Comment vous sentez-vous aujourd'hui?",
+    "followRequest": "Demande de suivi",
+    "viewAllRequest": "Voir toutes les demandes",
+    "imageVideo": "Image/Vidéo",
+    "friend": "Ami",
+    "feed": "Fil d'actualité",
+    "resource": "Ressource",
+    "chat": "Chat",
+    "savedItems": "Éléments enregistrés"
+  },
+  "post": {
+    "post": "Publication",
+    "share": "Partager",
+    "comment": "Commentaire",
+    "like": "J'aime",
+    "unlike": "Je n'aime plus",
+    "send": "Envoyer",
+    "interact": "Interagir",
+    "savePost": "Enregistrer la publication",
+    "writeComment": "Écrire un commentaire",
+    "writePostContent": "À quoi pensez-vous?",
+    "public": "Public",
+    "private": "Privé"
+  },
+  "follow": {
+    "follow": "Suivre",
+    "unfollow": "Ne plus suivre",
+    "follower": "Abonné",
+    "following": "Abonnements",
+    "noRequestFollow": "Aucune demande de suivi",
+    "suggestFollow": "Suggestions de suivi"
+  },
+  "friend": {
+    "friend": "Ami",
+    "addFriend": "Ajouter un ami",
+    "accept": "Accepter",
+    "reject": "Refuser",
+    "removeFriend": "Supprimer l'ami",
+    "mainPage": "Page d'accueil",
+    "friendRequest": "Demande d'ami",
+    "friendList": "Tous les amis",
+    "suggestFriend": "Suggestions d'amis",
+    "suggestFollow": "Suggestions de suivi",
+    "listFollow": "Liste des abonnés",
+    "viewAll": "Voir tout",
+    "add": "Ajouter",
+    "listRequestEmpty": "Liste des demandes vide",
+    "listSuggestionsEmpty": "Liste des suggestions vide"
+  },
+  "profile": {
+    "message": "Message",
+    "phoneNumber": "Numéro de téléphone",
+    "description": "Description",
+    "editProfile": "Modifier le profil",
+    "dateOfBirth": "Date de naissance",
+    "posts": "Publications",
+    "media": "Médias",
+    "video": "Vidéo",
+    "noPost": "Aucune publication"
+  },
+  "savedItems": {
+    "savedItems": "Collections enregistrées",
+    "noSavedItems": "Aucun élément enregistré",
+    "addNewFolder": "Ajouter un nouveau dossier",
+    "noItemsFound": "Aucun élément trouvé",
+    "all": "Tout"
+  },
+  "chat": {
+    "typeMessage": "Tapez votre message",
+    "backMainPage": "Retour à la page principale",
+    "send": "Envoyer"
+  },
+  "feed": {
+    "feed": "Fil d'actualité",
+    "allFeed": "Toutes les publications",
+    "followFeed": "Publications suivies",
+    "friendFeed": "Publications d'amis"
+  },
+  "label": {
+    "lastUpdated": "Dernière mise à jour ",
+    "on": "le",
+    "by": "par"
+  },
+  "commonErrorMessage": {
+    "cannotConnectToServer": "Impossible de se connecter au serveur"
+  },
+  "title": {},
+  "yes": "Oui",
+  "no": "Non",
+  "or": "Ou"
+}

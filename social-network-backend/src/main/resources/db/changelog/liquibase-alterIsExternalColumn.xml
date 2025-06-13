@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
+
+    <changeSet id="2-alter-is-external-column" author="your_name">
+        <preConditions onFail="MARK_RAN">
+            <!-- Kiểm tra nếu cột đã tồn tại -->
+            <columnExists tableName="file" columnName="is_external"/>
+        </preConditions>
+
+        <sql>
+            ALTER TABLE file
+                ALTER COLUMN is_external
+                    SET DATA TYPE boolean
+                USING CASE
+                WHEN is_external IN ('1', 'true', 't', 'yes', 'y') THEN true
+                WHEN is_external IN ('0', 'false', 'f', 'no', 'n') THEN false
+                ELSE NULL
+            END;
+        </sql>
+
+    </changeSet>
+
+</databaseChangeLog>

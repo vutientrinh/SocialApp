@@ -1,0 +1,68 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: SocialMedia
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - social-network-net
+
+  spring-social:
+    image: spring-social-network
+    container_name: spring-social-backend
+    build:
+      context: ./social-network-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./locale:/locale
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/SocialMedia
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: postgres
+      BASE_FOLDER-UPLOAD: /tmp/uploadFiles
+      IMAGE_FOLDER: /tmp/uploadImages
+      PUBLIC_FOLDER: /tmp/SocialMedia
+      CLOUDINARY_CLOUD_NAME: dtrb7dkmw
+      CLOUDINARY_API_KEY: 664655242756534
+      CLOUDINARY_API_SECRET: Kz4Js4pvAFcEWyGFPtzv1MJm7B4
+      CLOUDINARY_URL: cloudinary://664655242756534:Kz4Js4pvAFcEWyGFPtzv1MJm7B4@dtrb7dkmw
+      JWT_SECRET: 9a4f2c8d3b7a1e6f45c8a0b3f267d8b1d4e6f3c8a9d2b5f8e3a9c8b5f6v8a3d9b1c3e2f4a6b7d8e9f1c3d4a5b6c7d8e9f1a2b3c4d5e6f7a8b9c0
+    networks:
+      - social-network-net
+
+  react-social:
+    image: react-social-network
+    container_name: react-social-frontend
+    build:
+      context: ./social-network-frontend
+      dockerfile: Dockerfile
+    environment:
+      REACT_APP_BACKEND_URL: http://34.146.175.18:8080/
+      REACT_APP_FRONTEND_URL: /
+      REACT_APP_CLOUDINARY_URL: https://res.cloudinary.com/dtrb7dkmw/image/upload/
+      REACT_APP_SERVER_LLM: http://127.0.0.1:8082/
+    ports:
+      - "3000:3000"
+    depends_on:
+      - spring-social
+    networks:
+      - social-network-net
+
+volumes:
+  db_data:
+
+networks:
+  social-network-net:
+    driver: bridge

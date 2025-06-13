@@ -1,0 +1,133 @@
+{
+  "navbar": {
+    "dashboard": "Bảng điều khiển",
+    "user": "Người dùng",
+    "file": "Tệp",
+    "search": "Tìm kiếm"
+  },
+  "language": {
+    "English": "Tiếng Anh",
+    "Vietnam": "Tiếng Việt",
+    "German": "Tiếng Đức",
+    "French": "Tiếng Pháp"
+  },
+  "notification": {
+    "title": "Thông báo",
+    "youhave": "Bạn có",
+    "unread": "thông báo chưa đọc"
+  },
+  "account": {
+    "home": "Trang chủ",
+    "profile": "Hồ sơ",
+    "setting": "Cài đặt",
+    "logout": "Đăng xuất",
+    "accessDenied": "Truy cập bị từ chối. Chỉ có quản trị viên mới có thể thực hiện hành động này."
+  },
+  "table": {
+    "fileName": "Tên tệp",
+    "fileSize": "Kích thước tệp",
+    "dateUploaded": "Ngày tải lên",
+    "lastUpdated": "Cập nhật lần cuối",
+    "fileOwner": "Chủ sở hữu tệp",
+    "rowsPerPage": "Dòng mỗi trang",
+    "status": "Trạng thái",
+    "username": "Tên người dùng",
+    "email": "Email",
+    "role": "Vai trò",
+    "dateCreated": "Ngày tạo",
+    "lastLogin": "Lần đăng nhập cuối",
+    "active": "Hoạt động",
+    "download": "Tải xuống"
+  },
+  "mainPage": {
+    "howDoYouFeel": "{{firstName}} {{middleName}} {{lastName}}, Hôm nay bạn cảm thấy thế nào?",
+    "followRequest": "Yêu cầu theo dõi",
+    "viewAllRequest": "Xem tất cả yêu cầu",
+    "imageVideo": "Hình ảnh/ Video",
+    "friend": "Bạn bè",
+    "feed": "Dòng thời gian",
+    "resource": "Tài nguyên",
+    "chat": "Trò chuyện",
+    "savedItems": "Lưu bài viết"
+  },
+  "post": {
+    "post": "Bài viết",
+    "share": "Chia sẻ",
+    "comment": "Bình luận",
+    "like": "Thích",
+    "unlike": "Bỏ thích",
+    "send": "Gửi",
+    "interact": "Tương tác",
+    "savePost": "Lưu bài viết",
+    "writeComment": "Viết bình luận",
+    "writePostContent": "Bạn đang nghĩ gì?",
+    "public": "Công khai",
+    "private": "Riêng tư"
+  },
+  "follow": {
+    "follow": "Theo dõi",
+    "unfollow": "Bỏ theo dõi",
+    "follower": "Người theo dõi",
+    "following": "Đang theo dõi",
+    "noRequestFollow": "Không có yêu cầu theo dõi",
+    "suggestFollow": "Gợi ý theo dõi"
+  },
+  "friend": {
+    "friend": "Bạn bè",
+    "addFriend": "Thêm bạn",
+    "accept": "Đồng ý",
+    "reject": "Hủy",
+    "removeFriend": "Xóa bạn",
+    "mainPage": "Trang chủ",
+    "friendRequest": "Lời mời kết bạn",
+    "friendList": "Tất cả bạn bè",
+    "suggestFriend": "Gợi ý kết bạn",
+    "suggestFollow": "Gợi ý theo dõi",
+    "listFollow": "Danh sách theo dõi",
+    "viewAll": "Xem tất cả",
+    "add": "Thêm",
+    "listRequestEmpty": "Danh sách yêu cầu trống",
+    "listSuggestionsEmpty": "Danh sách gợi ý trống"
+  },
+  "profile": {
+    "message": "Tin nhắn",
+    "phoneNumber": "Số điện thoại",
+    "description": "Mô tả",
+    "editProfile": "Chỉnh sửa hồ sơ",
+    "dateOfBirth": "Ngày sinh",
+    "posts": "Bài viết",
+    "media": "Phương tiện",
+    "video": "Video",
+    "noPost": "Không có bài viết"
+  },
+  "savedItems": {
+    "savedItems": "Bộ sưu tập đã lưu",
+    "noSavedItems": "Không có bài viết đã lưu",
+    "addNewFolder": "Thêm thư mục mới",
+    "noItemsFound": "Không tìm thấy bài viết",
+    "all": "Tất cả"
+  },
+  "chat": {
+    "typeMessage": "Nhập tin nhắn của bạn",
+    "backMainPage": "Quay lại trang chính",
+    "send": "Gửi"
+  },
+  "feed": {
+    "feed": "Dòng thời gian",
+    "allFeed": "Tất cả bài viết",
+    "followFeed": "Bài viết bạn theo dõi",
+    "friendFeed": "Bài viết của bạn bè"
+  },
+  "label": {
+    "lastUpdated": "Cập nhật lần cuối ",
+    "on": "vào",
+    "by": "bởi"
+  },
+  "commonErrorMessage": {
+    "cannotConnectToServer": "Không thể kết nối với máy chủ"
+  },
+  "title": {},
+  "yes": "Có",
+  "no": "Không",
+  "or": "Hoặc"
+}
